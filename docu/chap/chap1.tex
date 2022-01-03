@@ -65,33 +65,77 @@ b. 基于优化模型的离线图像生成方法：为了解决在线优化的�
 
 \section{相关文献}
 
-本作业所阅读得的参考文献条列如下 :
+本作业所阅读得的参考文献条列如下 : 
 
-\begin{itemize}
-\item A. Hertzmann, C.E.Jacobs, N.Oliver et al. Image analogies. Proceedings of the 28th annual conference on Computer graphics and interactive techniques. ACM. 2001
-\item Leon Gatys, Alexander S Ecker, Matthias Bethge. Proceedings of the IEEE conference on computer vision and pattern recognition. 2016
-\item J.Johnson, A.Alahi, L.Fei-Fei. Perceptual losses for real-time style transfer and super-resolution. European Conference on Computer Vision. 2016
-\item Gu J, Shen Y, Zhou B. Image processing using multi-code gan prior[C]. Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2020: 3012-3021.
-\item Alaluf Y, Patashnik O, Cohen-Or D. Restyle: A residual-based stylegan encoder via iterative refinement[C]. Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021: 6711-6720.
-\item Ian J.Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron C.Courville, Yoshua Bengio: Generative Adversarial Nets. NIPS 2014: 2672-2680 
-\item Alec Radford, Luke Metz, Soumith Chintala:Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks. ICLR (Poster) 2016
-\item Phillip Isola, Jun-Yan Zhu, Tinghui Zhou. Image-To-Image Translation With Conditional Adversarial Networks. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2017
-\item Jun-Yan Zhu, Taesung Park, Phillip Isola. Unpaired Image-To-Image Translation Using Cycle-Consistent Adversarial Networks. Proceedings of the IEEE International Conference on Computer Vision (ICCV). 2017
-\item Tero Karras, Samuli Laine, Timo Aila: A Style-Based Generator Architecture for Generative Adversarial Networks. CVPR 2019: 4401-4410
-\item Tero Karras, Samuli Laine, Miika Aittala, Janne Hellsten, Jaakko Lehtinen, Timo Aila:Analyzing and Improving the Image Quality of StyleGAN. CoRR abs/1912.04958 2019
-\item Tero Karras, Miika Aittala, Samuli Laine, Erik Härkönen, Janne Hellsten, Jaakko Lehtinen, Timo Aila: Alias-Free Generative Adversarial Networks. CoRR abs/2106.12423 2021
-\item Weihao Xia, Yulun Zhang, Yujiu Yang, Jing-Hao Xue, Bolei Zhou, Ming-Hsuan Yang: GAN Inversion: A Survey. CoRR abs/2101.05278 2021
-\item Omer Tov, Yuval Alaluf, Yotam Nitzan, Or Patashnik, Daniel Cohen-Or:
-Designing an encoder for StyleGAN image manipulation. ACM Trans. Graph. 40(4): 133:1-133:14 2021
-\item Elad Richardson, Yuval Alaluf, Or Patashnik, Yotam Nitzan, Yaniv Azar, Stav Shapiro, Daniel Cohen-Or: Encoding in Style: A StyleGAN Encoder for Image-to-Image Translation. CVPR 2021: 2287-2296
-\item Yuval Alaluf, Or Patashnik, Daniel Cohen-Or:ReStyle: A Residual-Based StyleGAN Encoder via Iterative Refinement. CoRR abs/2104.02699 (2021)
-\item Omer Kafri, Or Patashnik, Yuval Alaluf, Daniel Cohen-Or: StyleFusion: A Generative Model for Disentangling Spatial Segments. CoRR abs/2107.07437 2021
-\item Radford A, Metz L, Chintala S. Unsupervised representation learning with deep convolutional generative adversarial networks[J]. arXiv preprint arXiv:1511.06434, 2015.
-\item Arjovsky M, Chintala S, Bottou L. Wasserstein generative adversarial networks[C]. International conference on machine learning. PMLR, 2017: 214-223.
-\item Gulrajani I, Ahmed F, Arjovsky M, et al. Improved training of wasserstein gans[J]. arXiv preprint arXiv:1704.00028, 2017.
-\item Karras T, Aila T, Laine S, et al. Progressive growing of gans for improved quality, stability, and variation[J]. arXiv:1710.10196, 2017.
-\item Mirza M, Osindero S. ,Conditional generative adversarial nets[J]. arXiv preprint, arXiv:1411.1784, 2014.
-\item Antoniou A, Storkey A, Edwards H. Data augmentation generative adversarial networks[J]. arXiv preprint arXiv:1711.04340, 2017.
-\item Gu J, Shen Y, Zhou B. Image processing using multi-code gan prior[C]. Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2020: 3012-3021.
-\end{itemize}
+
+\begin{table*}[htb]
+    \centering
+    \begin{minipage}[t]{0.55\linewidth} %
+        \caption[本作业阅读文献]{作业阅读文献}
+        \label{tab:example-table-basic}
+        \begin{small}
+        \begin{tabular}{@{}lccc@{}}
+         \toprule[1.5pt]
+        作者 & 年份 & 来源 \\
+         \midrule[1pt]
+          Aaron Hertzmann et al.\cite{a01} & 2001 & ACM\\
+          Leon Gatys et al.\cite{a02} & 2016 & CVPR\\
+          J.Johnson et al.\cite{a03} & 2016 & ECCV \\
+          Gu J et al.\cite{a04} & 2020 & CVPR \\
+          Alaluf Y et al.\cite{a05} & 2021 & ICCV \\
+          Ian J.Goodfellow et al.\cite{a06} & 2014 & NIPS \\
+          Alec Radford et al.\cite{a07} & 2016 & ICLR\\
+          Phillip Isola et al.\cite{a08} & 2017 & CVPR \\
+          Jun-Yan Zhu et al.\cite{a09} & 2017 & ICCV \\
+          Tero Karras et al.\cite{a10} & 2019 & CVPR \\
+          Tero Karras et al.\cite{a11} & 2019 & CoRR \\
+          Tero Karras et al.\cite{a12} & 2021 & CoRR \\
+          Weihao Xia et al.\cite{a13} & 2021 & CoRR \\
+          Omer Tov et al.\cite{a14} & 2021 & ACM \\
+          Elad Richardson et al.\cite{a15} & 2021 & CVPR \\
+          Yuval Alaluf et al.\cite{a16} & 2021 & CoRR \\
+          Omer Kafri et al.\cite{a17} & 2021 & CoRR \\
+          Radford A et al.\cite{a18}  & 2015 & arXiv \\
+          Arjovsky M et al.\cite{a19}  & 2017 & ICML \\
+          Ishaan Gulrajani et al.\cite{a20} & 2017 & arXiv \\
+          Tero Karras et al.\cite{a21}  & 2017 & arXiv \\
+          Mirza M et al.\cite{a22} & 2014 & arXiv \\
+          Antoniou A et al.\cite{a23} & 2017 & arXiv \\
+          Gu J et al.\cite{a24} & 2020 & CVPR \\
+          \bottomrule[1.5pt]
+        \end{tabular}
+        \end{small}
+    \end{minipage}
+\end{table*}
+
+
+
+
+
+%\begin{itemize}
+%\item A. Hertzmann, C.E.Jacobs, N.Oliver et al. Image analogies. Proceedings of the 28th annual conference on Computer graphics and interactive techniques. ACM. 2001
+%\item Leon Gatys, Alexander S Ecker, Matthias Bethge. Proceedings of the IEEE conference on computer vision and pattern recognition. 2016
+%\item J.Johnson, A.Alahi, L.Fei-Fei. Perceptual losses for real-time style transfer and super-resolution. European Conference on Computer Vision. 2016
+%\item Gu J, Shen Y, Zhou B. Image processing using multi-code gan prior[C]. Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2020: 3012-3021.
+%\item Alaluf Y, Patashnik O, Cohen-Or D. Restyle: A residual-based stylegan encoder via iterative refinement[C]. Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021: 6711-6720.
+%\item Ian J.Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron C.Courville, Yoshua Bengio: Generative Adversarial Nets. NIPS 2014: 2672-2680 
+%\item Alec Radford, Luke Metz, Soumith Chintala:Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks. ICLR (Poster) 2016
+%\item Phillip Isola, Jun-Yan Zhu, Tinghui Zhou. Image-To-Image Translation With Conditional Adversarial Networks. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 2017
+%\item Jun-Yan Zhu, Taesung Park, Phillip Isola. Unpaired Image-To-Image Translation Using Cycle-Consistent Adversarial Networks. Proceedings of the IEEE International Conference on Computer Vision (ICCV). 2017
+%\item Tero Karras, Samuli Laine, Timo Aila: A Style-Based Generator Architecture for Generative Adversarial Networks. CVPR 2019: 4401-4410
+%\item Tero Karras, Samuli Laine, Miika Aittala, Janne Hellsten, Jaakko Lehtinen, Timo Aila:Analyzing and Improving the Image Quality of StyleGAN. CoRR abs/1912.04958 2019
+%\item Tero Karras, Miika Aittala, Samuli Laine, Erik Härkönen, Janne Hellsten, Jaakko Lehtinen, Timo Aila: Alias-Free Generative Adversarial Networks. CoRR abs/2106.12423 2021
+%\item Weihao Xia, Yulun Zhang, Yujiu Yang, Jing-Hao Xue, Bolei Zhou, Ming-Hsuan Yang: GAN Inversion: A Survey. CoRR abs/2101.05278 2021
+%\item Omer Tov, Yuval Alaluf, Yotam Nitzan, Or Patashnik, Daniel Cohen-Or: Designing an encoder for StyleGAN image manipulation. ACM Trans. Graph. 40(4): 133:1-133:14 2021
+%\item Elad Richardson, Yuval Alaluf, Or Patashnik, Yotam Nitzan, Yaniv Azar, Stav Shapiro, Daniel Cohen-Or: Encoding in Style: A StyleGAN Encoder for Image-to-Image Translation. CVPR 2021: 2287-2296
+%\item Yuval Alaluf, Or Patashnik, Daniel Cohen-Or:ReStyle: A Residual-Based StyleGAN Encoder via Iterative Refinement. CoRR abs/2104.02699 (2021)
+%\item Omer Kafri, Or Patashnik, Yuval Alaluf, Daniel Cohen-Or: StyleFusion: A Generative Model for Disentangling Spatial Segments. CoRR abs/2107.07437 2021
+%\item Radford A, Metz L, Chintala S. Unsupervised representation learning with deep convolutional generative adversarial networks[J]. arXiv preprint arXiv:1511.06434, 2015.
+%\item Arjovsky M, Chintala S, Bottou L. Wasserstein generative adversarial networks[C]. International conference on machine learning. PMLR, 2017: 214-223.
+%\item Gulrajani I, Ahmed F, Arjovsky M, et al. Improved training of wasserstein gans[J]. arXiv preprint arXiv:1704.00028, 2017.
+%\item Karras T, Aila T, Laine S, et al. Progressive growing of gans for improved quality, stability, and variation[J]. arXiv:1710.10196, 2017.
+%\item Mirza M, Osindero S. ,Conditional generative adversarial nets[J]. arXiv preprint, arXiv:1411.1784, 2014.
+%\item Antoniou A, Storkey A, Edwards H. Data augmentation generative adversarial networks[J]. arXiv preprint arXiv:1711.04340, 2017.
+%\item Gu J, Shen Y, Zhou B. Image processing using multi-code gan prior[C]. Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2020: 3012-3021.
+%\end{itemize}
 
